@@ -2,16 +2,14 @@
 
 ![Header Image](content/images/header.png)
 
-> 用类似markdown的方式从文本来生成图表和流程图
-想要简化文档、避免沉重的工具如 Visio 解释代码？
-mermaid 美人鱼 就是为此而生，一个简单的 markdown-like 脚本语言，在 javascript 中通过文本来生成图表。 [尝试一下在线编辑器吧][https://mermaidjs.github.io/mermaid-live-editor]
-
+> 用类似markdown的方式从文本来生成图表和流程图  
+> 想要简化文档、避免沉重的工具如 Visio 解释代码？  
+> mermaid 美人鱼 就是为此而生，一个简单的 markdown-like 脚本语言，在 javascript 中通过文本来生成图表。 \[尝试一下在线编辑器吧\]\[[https://mermaidjs.github.io/mermaid-live-editor](https://mermaidjs.github.io/mermaid-live-editor)\]
 
 ## Request for contribution
 
-- Contribute to mermaid: https://github.com/knsv/mermaid
-- Contribute to documentation: https://github.com/mermaidjs/mermaid-gitbook
-
+* Contribute to mermaid: [https://github.com/knsv/mermaid](https://github.com/knsv/mermaid)
+* Contribute to documentation: [https://github.com/mermaidjs/mermaid-gitbook](https://github.com/mermaidjs/mermaid-gitbook)
 
 ### An example of a flowchart
 
@@ -22,7 +20,6 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
 
 ### An example of a sequence diagram
 
@@ -39,7 +36,6 @@ sequenceDiagram
     John->Bob: How about you?
     Bob-->John: Jolly good!
 ```
-
 
 ### An example of a gantt diagram
 
@@ -61,18 +57,16 @@ gantt
         Add to mermaid                      :1d
 ```
 
-Play with mermaid using this [live editor][live-editor].
-
+Play with mermaid using this [live editor](https://mermaidjs.github.io/mermaid-live-editor/).
 
 ## Credits
 
-Many thanks to the [d3](https://d3js.org/) and [dagre-d3](https://github.com/cpettitt/dagre-d3) projects for providing the graphical layout and drawing libraries!
+Many thanks to the [d3](https://d3js.org/) and [dagre-d3](https://github.com/cpettitt/dagre-d3) projects for providing the graphical layout and drawing libraries!  
 Thanks also to the [js-sequence-diagram](https://bramp.github.io/js-sequence-diagrams) project for usage of the grammar for the sequence diagrams.
 
-*Mermaid was created by Knut Sveidqvist for easier documentation.*
+_Mermaid was created by Knut Sveidqvist for easier documentation._
 
 Knut has not done all work by himself, here is the full list of the projects [contributors](https://github.com/knsv/mermaid/graphs/contributors).
-
 
 # Downstream projects
 
@@ -93,7 +87,6 @@ Mermaid is supported in a number of publishing systems and editors. Please repor
 * [Mermaid Preview for VS Code](https://marketplace.visualstudio.com/items?itemName=vstirbu.vscode-mermaid-preview)
 * [Package for Sublime Text 3](https://packagecontrol.io/packages/Mermaid)
 
-
 # Online live editor
 
 An editor is available for creating diagrams. With it you can quickly start writing mermaid diagrams. It is possible to:
@@ -102,6 +95,7 @@ An editor is available for creating diagrams. With it you can quickly start writ
 * get a link to a viewer of the diagram
 * get a link to edit of the diagram to share a diagram so that someone else can tweak it and send a new link back
 
-* [Editor][live-editor]
+* [Editor](https://mermaidjs.github.io/mermaid-live-editor/)
 
-[live-editor]: https://mermaidjs.github.io/mermaid-live-editor/
+
+
